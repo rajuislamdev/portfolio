@@ -10,10 +10,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
     // Gmail SMTP configuration
-    $smtpHost = "smtp.gmail.com";
-    $smtpPort = 587;
-    $smtpUsername = "marsfarhad@gmail.com";
-    $smtpPassword = "Moheshpur01##";
+    // $smtpHost = "smtp.gmail.com";
+    // $smtpPort = 587;
+    // $smtpUsername = "marsfarhad@gmail.com";
+    // $smtpPassword = "Moheshpur01##";
 
     // Create the email message
     $emailMessage = "Name: $name\n";
